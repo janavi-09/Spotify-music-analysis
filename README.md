@@ -1,52 +1,21 @@
 # Spotify Music Analytics Project
 
-## 🔍 Project Overview
+## 🧠 Project Overview
+This project analyzes a Top 50 Spotify tracks dataset, focusing on music trends, artist popularity, and audio features like danceability, loudness, BPM, and energy. The dataset is cleaned and transformed for exploration and visualization.
 
-  This notebook is a Data Analysis & Visualization assignment based on a dataset named top50spotify.csv, which contains details about the top 50 most popular Spotify songs.
-  
-  The file demonstrates data cleaning, exploration, file handling, plotting, and basic insights-generation using Python (Pandas, Matplotlib, Seaborn).
+## 🔍 Key Features
+Data loading & preprocessing (column removal, saving cleaned dataset)
 
-## 🧾 Key Tasks Performed in the Project
-  📥 Importing Data:	Loaded the dataset into a pandas DataFrame.
-  
-  🧹 Data Cleaning:	Dropped the SerialNo column and created a new dataset.
-  
-  💾 File Handling:	Saved the modified dataset as top50.csv.
-  
-  🔍 Exploratory Data Analysis:	Checked shape, summary statistics, data types, missing values.
-  
-  📊 Data Visualization:	Visualized relationships using pie charts, bar graphs, boxplots, correlation heatmaps etc.
-  
-  🎧 Music Feature Insights:	Analyzed trends in track popularity, genre distribution, loudness, danceability, energy levels etc.
+Exploratory Data Analysis (EDA)
 
-## 🔬 What the analysis focuses on
-### The project mainly revolves around studying music preferences based on song features such as:
+Visual insights for genre, popularity, artists, loudness, danceability etc.
 
-  🎼 Genre
-  
-  🎤 Artist
-  
-  ❤️ Popularity
-  
-  🔊 Loudness
-  
-  💃 Danceability
-  
-  🎶 Beats Per Minute (BPM)
-  
-  🔥 Energy
+Correlation heatmap to observe feature relationships
 
+## 🛠 Tech Stack
+```
+Python · Pandas · Matplotlib · Seaborn
+```
 
-### It performs comparisons like:
-  
-  ✔ Top music genres based on count
-  
-  ✔ Loudest or most energetic songs
-  
-  ✔ Most popular artists
-  
-  ✔ Distribution of song features
-  
-  ✔ Correlation between audio properties
-
-This helps understand what characteristics make a song popular.
+## 📌 Output
+Insights & visualizations that reveal characteristics of popular Spotify songs.
